@@ -2,7 +2,7 @@
 
 Useful for forwarding Cloudwatch Logs to a Kinesis Stream.
 
-If you're logGroup name is of the form `stack/app/STAGE` the appropriate tags
+If your logGroup name is of the form `stack/app/STAGE` the appropriate tags
 will be merged into each message. Note, you will need to be logging JSON
 messages for this to work.
 
